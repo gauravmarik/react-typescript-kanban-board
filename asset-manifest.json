@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-typescript-kanban-board/static/css/main.1de2c1e6.chunk.css",
+    "main.js": "/react-typescript-kanban-board/static/js/main.dae8d982.chunk.js",
+    "main.js.map": "/react-typescript-kanban-board/static/js/main.dae8d982.chunk.js.map",
+    "runtime-main.js": "/react-typescript-kanban-board/static/js/runtime-main.07f8057c.js",
+    "runtime-main.js.map": "/react-typescript-kanban-board/static/js/runtime-main.07f8057c.js.map",
+    "static/js/2.6b058350.chunk.js": "/react-typescript-kanban-board/static/js/2.6b058350.chunk.js",
+    "static/js/2.6b058350.chunk.js.map": "/react-typescript-kanban-board/static/js/2.6b058350.chunk.js.map",
+    "index.html": "/react-typescript-kanban-board/index.html",
+    "static/css/main.1de2c1e6.chunk.css.map": "/react-typescript-kanban-board/static/css/main.1de2c1e6.chunk.css.map",
+    "static/js/2.6b058350.chunk.js.LICENSE.txt": "/react-typescript-kanban-board/static/js/2.6b058350.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07f8057c.js",
+    "static/js/2.6b058350.chunk.js",
+    "static/css/main.1de2c1e6.chunk.css",
+    "static/js/main.dae8d982.chunk.js"
+  ]
+}
