@@ -1,0 +1,170 @@
+.input {
+	display: flex;
+	width: 95%;
+	position: relative;
+	align-items: center;
+}
+
+.input__box {
+	width: 100%;
+	border-radius: 10px;
+	padding: 20px 30px;
+	font-size: 25px;
+	border: none;
+	transition: 0.2s;
+	/* box-shadow: inset 0 0 5px #ace; */
+	background-color: #ace;
+}
+
+.input__box:focus {
+	box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.3);
+	outline: none;
+}
+.input__box::placeholder {
+	font-family: 'Montserrat', serif;
+	font-size: 23px;
+}
+
+.input_submit {
+	position: absolute;
+	width: 100px;
+	height: 55px;
+	margin: 7px;
+	border-radius: 10px;
+	right: 0px;
+	border: none;
+	font-size: 20px;
+	/* color: #ba5e57; */
+	color: #1c1e57;
+	background-color: #affec7;
+	transition: 0.5s all;
+	/* box-shadow: 0 0 10px #ace; */
+	font-family: 'Montserrat', serif;
+}
+
+.input_submit:hover {
+	background-color: #71c7ac;
+
+	cursor: pointer;
+}
+
+.input_submit:active {
+	transform: scale(0.8);
+	box-shadow: 0 0 5px black;
+}
+
+.container {
+	width: 95%;
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.tasks {
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 47.5%;
+	padding: 15px;
+	background-color: green;
+}
+
+.activeDrag {
+	background-color: #a77e57;
+}
+
+.completeDrag {
+	background-color: #0c7e75;
+}
+.done {
+	background-color: #5a7;
+}
+.open {
+	background-color: #ba5e57;
+}
+/* .remove {
+	background-color: rgb(235, 103, 80);
+} */
+
+.tasks__heading {
+	font-size: 30px;
+	/* text-align: center; */
+	color: white;
+}
+
+.one__task {
+	display: flex;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 15px;
+	background-color: #bad;
+	color: #1c1e57;
+	transition: 0.2s;
+}
+
+/* .drag {
+	box-shadow: 0 0 20px black;
+} */
+
+.one__task:hover {
+	/* box-shadow: 0 0 5px #bad; */
+	transform: scale(1.03);
+}
+
+.one__task--text {
+	flex: 1;
+	padding: 5px;
+	border: none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.one__tasks--text:focus {
+	outline: none;
+}
+
+.icon {
+	margin-left: 10px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+	.tasks {
+		width: 46%;
+	}
+}
+
+@media (max-width: 773px) {
+	.input {
+		width: 95%;
+	}
+	.container {
+		width: 95%;
+		flex-direction: column;
+	}
+	.tasks {
+		width: 92.5%;
+		margin-bottom: 10px;
+	}
+
+	.input__box,
+	.input_submit,
+	.one__task--text {
+		font-size: 16px;
+	}
+	.icon {
+		font-size: 21px;
+	}
+
+	.input__box::placeholder {
+		font-size: 18px;
+	}
+	.tasks__heading {
+		font-size: 18px;
+	}
+	.input_submit {
+		height: 45px;
+	}
+}
